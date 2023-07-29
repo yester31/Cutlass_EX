@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27 FATAL_ERROR)
-project(ex1 LANGUAGES CXX CUDA)
+project(main LANGUAGES CXX CUDA)
 
 #
 # CUTLASS 3.x requires C++17
@@ -19,9 +19,9 @@ link_directories(/usr/local/cuda/lib64)
 # cutlass
 include_directories(/home/yhpark/workspace/cutlass/include)
 
-add_executable(ex1 ex1.cu)
+add_executable(main main.cu)
 
-set_property(TARGET ex1 PROPERTY CUDA_ARCHITECTURES "86")
+set_property(TARGET main PROPERTY CUDA_ARCHITECTURES "86")
 
 message(STATUS "CMAKE_CUDA_COMPILER: ${CMAKE_CUDA_COMPILER}") 
 message(STATUS "CMAKE_CUDA_ARCHITECTURES: ${CMAKE_CUDA_ARCHITECTURES}") 
