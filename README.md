@@ -22,6 +22,11 @@
 - Demonstrate CUTLASS debugging tool for dumping fragments and shared memory
 - dumping : Record the state of memory at a specific point in time
 
+### example_6) CUTLASS layout visualization example
+- [03_visualize_layout](https://github.com/NVIDIA/cutlass/blob/main/examples/03_visualize_layout/visualize_layout.cpp)
+
+
+
 ## 2. Guide
 ```
     cd example_{number}
