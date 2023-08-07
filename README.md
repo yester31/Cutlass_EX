@@ -25,6 +25,10 @@
 ### example_6) CUTLASS layout visualization example
 - [03_visualize_layout](https://github.com/NVIDIA/cutlass/blob/main/examples/03_visualize_layout/visualize_layout.cpp)
 
+### example_7) CUTLASS example to compute a batched strided gemm in two different ways
+- [05_batched_gemm](https://github.com/NVIDIA/cutlass/blob/main/examples/05_batched_gemm/batched_gemm.cu)
+- strided batched gemm : By specifying pointers to the first matrices of the batch and the stride between the consecutive matrices of the batch.
+- array gemm : By copying pointers to all matrices of the batch to the device memory.
 
 
 ## 2. Guide
