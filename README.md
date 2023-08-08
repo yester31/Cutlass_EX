@@ -1,7 +1,7 @@
 # Cutlass_EX
 
 ## 0. Introduction
-- Goal : Study of Cutlass
+- Goal : Development of a 4-bit primitives by using Cutlass
 
 ## 1. Example List
 
