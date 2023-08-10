@@ -31,6 +31,11 @@
 - array gemm : By copying pointers to all matrices of the batch to the device memory.
 
 
+### example_8) CUTLASS turing gemm using tensor cores
+- [08_turing_tensorop_gemm](https://github.com/NVIDIA/cutlass/blob/main/examples/08_turing_tensorop_gemm/turing_tensorop_gemm.cu)
+
+
+
 ## 2. Guide
 ```
     cd example_{number}
