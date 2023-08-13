@@ -35,6 +35,10 @@
 - [08_turing_tensorop_gemm](https://github.com/NVIDIA/cutlass/blob/main/examples/08_turing_tensorop_gemm/turing_tensorop_gemm.cu)
 
 
+### example_9) CUTLASS turing convolution using tensor cores
+- [09_turing_tensorop_conv2dfprop](https://github.com/NVIDIA/cutlass/blob/main/examples/09_turing_tensorop_conv2dfprop/turing_tensorop_conv2dfprop.cu)
+
+
 
 ## 2. Guide
 ```
